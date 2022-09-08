@@ -10,4 +10,6 @@ Extracts the values of a wide variety of map layers, for variables covering a wi
 # Getting started
 ## Preparing field data.
 Your field data contains information on when and where you made biodiversity measurements, along with any field observations you may have made of the environment.
-Your field data needs to consist of a CSV file with one row for each sample. It must have the following columns: sample_id, latitude, longitude, sample_date, spatial_uncertainty. The format for these columns need to be as follows: sample_id (string labeling your environmental DNA sample), latitude (degrees, with north being positive), longitude (degrees with east being positive), sample_date (yyyy-mm-dd), spatial_uncertainty (meters).
+Your field data needs to consist of a CSV file with one row for each sample. At minimum it must have the following columns: sample_id, latitude, longitude, sample_date, spatial_uncertainty. The format for these columns need to be as follows: sample_id (string labeling your environmental DNA sample), latitude (degrees, with north being positive), longitude (degrees with east being positive), sample_date (yyyy-mm-dd), spatial_uncertainty (meters).
+## What layers are being extracted?
+We have selected a number of environmental and social layers which can potentially influence biodiversity patterns. These include data describing the natural environment, such as terrain and climate, human activities, such as land use and light pollution, as well as socioeconomic values such as access to health care and demography.
