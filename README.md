@@ -16,4 +16,5 @@ We have selected a number of environmental and social layers which can potential
 ### Map layers describing the natural environment
 #### Climate
 The following data sets are used to describe climatic conditions:
-1. BioClim.  The [BioClim dataset] (https://developers.google.com/earth-engine/datasets/catalog/WORLDCLIM_V1_BIO) has 19 bands representing different measures of temperature and precipitation to a resolution of 30 arc seconds (1 kilometer).
+1. BioClim.  The [BioClim dataset](https://developers.google.com/earth-engine/datasets/catalog/WORLDCLIM_V1_BIO) has 19 bands representing different measures of temperature and precipitation to a resolution of 30 arc seconds (1 kilometer).
+2. Global SRTM CHILI (Continuous Heat-Insolation Load Index). The [CHILI](https://developers.google.com/earth-engine/datasets/catalog/CSP_ERGo_1_0_Global_SRTM_CHILI) factors in the effects of solar heating and shading, due to the topography of the landscape, on evapotranspiration. These calculations are done using models of early afternoon sunlight as experienced during the equinox.
