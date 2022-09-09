@@ -16,5 +16,9 @@ We have selected a number of environmental and social layers which can potential
 ### Map layers describing the natural environment
 #### Climate
 The following data sets are used to describe climatic conditions:
-1. BioClim.  The [BioClim dataset](https://developers.google.com/earth-engine/datasets/catalog/WORLDCLIM_V1_BIO) has 19 bands representing different measures of temperature and precipitation to a resolution of 30 arc seconds (1 kilometer).
+1. BioClim.  The [BioClim dataset](https://developers.google.com/earth-engine/datasets/catalog/WORLDCLIM_V1_BIO) has 19 bands representing different measures of temperature and precipitation to a resolution of 30 arc seconds (~1 kilometer).
 2. Global SRTM CHILI (Continuous Heat-Insolation Load Index). The [CHILI](https://developers.google.com/earth-engine/datasets/catalog/CSP_ERGo_1_0_Global_SRTM_CHILI) factors in the effects of solar heating and shading, due to the topography of the landscape, on evapotranspiration. These calculations are done using models of early afternoon sunlight as experienced during the equinox.
+3. Monthly precipitation. We use a [monthly precipitation](https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_CLM_CLM_PRECIPITATION_SM2RAIN_M_v01) based on a combination of modeled data sets such as [SM2RAIN-ASCAT 2007-2018](https://essd.copernicus.org/articles/11/1583/2019/), [IMERG](https://gpm.nasa.gov/data/imerg), [CHELSA Climate](https://chelsa-climate.org/), and [BioClim](https://developers.google.com/earth-engine/datasets/catalog/WORLDCLIM_V1_BIO).
+#### Soil
+The following data sets are used to describe soil conditions:
+1. OpenLandMap. The [OpenLandMap data](https://developers.google.com/earth-engine/datasets/tags/openlandmap) describes the following soil properties: USDA category, pH, organic carbon composition, sand composition, clay composition, soil density, soil texture, and water content. All of these values are calculated for the surface as well at depths of 10, 30, 60, 100, and 200 centimeters. Spatial resolution: 250 meters.
