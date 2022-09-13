@@ -22,3 +22,7 @@ The following data sets are used to describe climatic conditions:
 #### Soil
 The following data sets are used to describe soil conditions:
 1. OpenLandMap. The [OpenLandMap data](https://developers.google.com/earth-engine/datasets/tags/openlandmap) describes the following soil properties: USDA category, pH, organic carbon composition, sand composition, clay composition, soil density, soil texture, and water content. All of these values are calculated for the surface as well at depths of 10, 30, 60, 100, and 200 centimeters. Spatial resolution: 250 meters.
+#### Terrain
+The following data sets are used to describe terrain:
+1. Elevation, slope, and aspect. Topographic data is derived from the [Shuttle Radar Topography Mission](https://developers.google.com/earth-engine/datasets/catalog/CGIAR_SRTM90_V4). Spatial resolution: 10 meters.
+2. Landform categories. The [SRTM Landform dataset](https://developers.google.com/earth-engine/datasets/catalog/CSP_ERGo_1_0_Global_SRTM_landforms) provides landform classes created by combining the Continuous Heat-Insolation Load Index (SRTM CHILI) and the multi-scale Topographic Position Index (SRTM mTPI) datasets. Spatial resolution: 30 meters.
